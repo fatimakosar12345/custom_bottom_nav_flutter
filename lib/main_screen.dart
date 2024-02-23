@@ -68,14 +68,14 @@ class _MainScreenState extends State<MainScreen> {
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         floatingActionButton: Container(
           margin: const EdgeInsets.only(top: 10),
-          height: 64,
-          width: 64,
+          height: 60,
+          width: 60,
           child: FloatingActionButton(
             backgroundColor: Colors.white,
             elevation: 0,
             onPressed: () => debugPrint("Add Button pressed"),
             shape: RoundedRectangleBorder(
-              side: const BorderSide(width: 3, color: Colors.green),
+              side: const BorderSide(width: 8, color: Colors.green),
               borderRadius: BorderRadius.circular(100),
             ),
             child: const Icon(
